@@ -1,12 +1,28 @@
-# UT4
+# UT4 · Seguimiento de clases
 
-Este repositorio está destinado al seguimiento de las clases de la UT4.
+Este repositorio está destinado al seguimiento de las clases de la **UT4**.
 
-## Organización
+## Objetivo
 
-El contenido se organizará por carpetas para mantener un orden claro del trabajo:
+Mantener organizado el material visto en clase y las prácticas resueltas para facilitar el estudio y el repaso.
 
-- Carpetas por cada día de clase con las explicaciones correspondientes.
-- Carpetas con ejercicios y actividades resueltas.
+## Organización del repositorio
 
-De esta manera, se podrá consultar fácilmente las explicaciones prácticas realizadas en clase
+El contenido se estructura por carpetas para mantener un orden claro:
+
+- En **Sesiones de clase** se crea una carpeta por cada clase.
+- En **Ejercicios** se crea una carpeta por cada ejercicio o actividad evaluable.
+
+## Estructura seguida
+
+```text
+UT4/
+├─ Sesiones de clase/
+│  ├─ Clase 1/
+│  └─ Clase 2/
+└─ Ejercicios/
+   ├─ Ejercicio 1/
+   └─ Actividad evaluable 1/
+```
+
+De esta manera, se puede consultar rápidamente la práctica realizada en clase.
