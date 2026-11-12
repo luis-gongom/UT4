@@ -105,3 +105,29 @@ let cifrar = (texto) => {
     return resultado;
 }
 div.innerHTML+="<p>"+cifrar("Javier Guzman Cruz")+"</p>";
+let cuantas = (palabras, palabra) => {
+    let cont = 0;
+    palabras.forEach( elemento => {
+        if (elemento == palabra){
+            cont++
+        }
+    });
+    return cont;
+}
+
+//Ejercicio 16 
+//Solamanete vamos a buscar la palabra mas frecuente
+let lamasfrecuente =  (texto) => {
+    let palabras = texto.split(" ");
+    /*let palabraMayor = palabras[0];
+    let contMax = cuantas(palabras, palabras[0]);
+    palabras.forEach(palabra => {
+        if (cuantas(palabras, palabra) > contMax){
+            contMax = cuantas(palabras, palabra);
+            palabraMayor = palabra;
+        }
+    });
+    return palabraMayor;*/
+    return palabras.reduce((acc, palabra) => cuantas(palabras, acc)>cuantas(palabras, palabra) ? acc : palabra);
+}
+console.log(lamasfrecuente("ropa casa aro ropa casa ropa aro melon aro ropa cocina"));
